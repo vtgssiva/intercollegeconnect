@@ -438,7 +438,7 @@ p::first-letter {
 }
 
 .labels {
-  color: #6f5896;
+  color: #088f8f;
   font-family: Rasa;
   font-size: 24px;
   line-height: 1.5;
@@ -467,7 +467,7 @@ p::first-letter {
 #send {
   height: 38px;
   width: 132px;
-  background-color: #6f5896;
+  background-color: #088f8f;
   border: none;
   color: white;
   margin: 20px;

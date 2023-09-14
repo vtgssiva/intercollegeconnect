@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head><style>
+</head>
+<style>
     a {
         color: white;
     }
@@ -23,7 +24,28 @@
     button:hover {
         font-size: 90%
     }
-</style>
+    
+        a {
+            color: white;
+        }
+
+        a:hover {
+            color: white;
+            font-size: 110%;
+        }
+
+        h2 {
+            font-family: Rasa;
+            font-size: 40px;
+            font-weight: 300;
+            line-height: 49px;
+            letter-spacing: 0em;
+            color: #088f8f;
+            margin-left: 50px;
+        }
+    </style>
+    <title>CONTACT - BIZZ</title>
+
 
 
 <body>
@@ -50,7 +72,7 @@
                 <button id="notification" onclick="window.location.href='';"><img src="bell.jpg" alt=""></button>
             </div>
         </div>
-    
+
         <!-- header section ends -->
         <!-- tittle bar section begins -->
         <div id="tittleBar">
@@ -61,7 +83,30 @@
             <!-- <span class="tittle"> <a href="fashion.php">Fashion</a></span> -->
         </div>
         <br>
-    
+
+        <h2>CONTACT US</h2>
+        <br>
+        <!-- form section begins -->
+        <form action="insert.php" method="Post" id="contactForm">
+            <label for="name"> <span class="labels"> Name(required) :</span></label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="enter name" required>
+            <br>
+            <label for="name"> <span class="labels"> Email(required) :</span></label>
+            <br>
+            <input type="email" name="email" id="email_address" placeholder="enter email" required>
+            <br>
+            <label for="subject"> <span class="labels"> Subject :</span></label>
+            <br>
+            <input type="text" name="subject" id="subject" placeholder="enter subject">
+            <br>
+            <label for="message"> <span class="labels"> Message :</span></label>
+            <br>
+            <input type="text" name="message" id="message">
+            <br>
+            <button id="send">Send</button>
+        </form>
+
         <!-- tittle bar section ends -->
         <!-- footer section begins -->
         <div id="footer">
@@ -69,9 +114,9 @@
             <span class="foot"> <a href="">About</a></span>
             <span class="foot"> <a href="contact.html">Contact</a></span>
             <span class="foot"> <a href="">Subscribe</a></span>
-        
+
         </div>
         <!-- footer section ends -->
-    </body>
-    
-    </html>
+</body>
+
+</html>
