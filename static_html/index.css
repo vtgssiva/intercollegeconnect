@@ -65,6 +65,43 @@ h1 {
   /* display: flex;
     justify-content: space-evenly; */
 }
+#box {
+  padding: 18px;
+  width: 100%;
+  width: 150px;
+  height: 40px;
+  flex-shrink: 0;
+  font-size: medium;
+  font-weight: 300;
+
+  box-sizing: border-box;
+}
+.box {
+  padding: 18px;
+  width: 100%;
+  width: 150px;
+  height: 40px;
+  flex-shrink: 0;
+  font-size: medium;
+  font-weight: 300;
+  color: black;
+  box-sizing: border-box;
+  justify-content: space-around;
+  margin-left: 60px;
+  background: rgba(8, 143, 143, 0.17);
+}
+.trending {
+  font-family: "Rasa";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  margin-left: 50px;
+  color: black;
+}
+#link {
+  color: black;
+}
 
 .tittle {
   padding-left: 175px;
@@ -404,16 +441,6 @@ p::first-letter {
 #beauty_makeupImageSection {
   display: flex;
   justify-content: space-evenly;
-}
-
-.beautymakeup_posts {
-  font-family: "Rasa";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 58px;
-  margin-left: 150px;
-  color: #6f5896;
 }
 
 .beautymakeupPost_section {
