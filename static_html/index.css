@@ -263,7 +263,7 @@ p::first-letter {
 }
 
 .posts_fashion {
-  height: 585px;
+  height: 440px;
   background-color: white;
   margin-top: 60px;
   display: flex;
@@ -275,17 +275,17 @@ p::first-letter {
 }
 
 .Fpost_description {
-  width: 680px;
-  height: 422px;
+  width: 480px;
+  height: 250px;
   font-family: "Rasa";
   font-style: normal;
-  font-weight: 300;
-  font-size: 32px;
-  line-height: 39px;
+  font-weight: 150;
+  font-size: 25px;
+  line-height: 40px;
   color: #088f8f;
   margin-right: 10px;
   margin-left: 30px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .post_tittle {
@@ -294,8 +294,7 @@ p::first-letter {
 }
 
 .comment_tittle {
-  color: white;
-  background-color: #088f8f;
+  color: black;
   margin-left: 30px;
 }
 
