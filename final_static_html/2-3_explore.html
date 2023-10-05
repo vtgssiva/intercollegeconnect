@@ -108,6 +108,22 @@ body {
             margin-left: 25px;
             text-align: center;
         }
+          .customTabs {
+        margin-top: 30px;
+        width: auto;
+    }
+
+    .customFootBadge {
+        height: 130px !important;
+    }
+
+    .customFootProduct {
+        padding-top: 20px !important;
+    }
+
+    .customFoot {
+        padding-top: 40px !important;
+    }
 </style>
 
 
@@ -122,17 +138,17 @@ body {
             <div id="hi">
                 <h1>BIZZ </h1>
             </div>
-            <div>
+            <!--<div>
                 <button id="subscribe" onclick="window.location.href='subscribe.html';">Subscribe</button>
-            </div>
+            </div>-->
             <div>
-                <button id="email" onclick="window.location.href='login.html';"><img src="login.png" alt=""></button>
+                <button id="email" onclick="window.location.href='0_login_v1.html';"><img src="login.png" alt=""></button>
             </div>
-            <div>
+            <!--<div>
                 <button id="sea" onclick="window.location.href='';"> <img src="search.png" alt=""></button>
-            </div>
+            </div>-->
             <div>
-                <button id="notification" onclick="window.location.href='';"><img src="bell.jpg" alt=""></button>
+                <button id="notification" onclick="window.location.href='5_notifications.html';"><img src="bell.jpg" alt=""></button>
             </div>
         </div>
 
@@ -140,9 +156,9 @@ body {
         <!-- tittle bar section begins -->
         
         <div id="tittleBar">
-            <span class="tittle"> <a href="index.html">Home</a></span>
-            <span class="tittle"> <a href="explore.html">Explore</a></span>
-            <span class="tittle"> <a href="news.html">News</a></span>
+            <span class="tittle"> <a href="2-3_index.html">Home</a></span>
+            <span class="tittle"> <a href="2-3_explore.html">Explore</a></span>
+            <span class="tittle"> <a href="4-9-10_news.html">News</a></span>
             <span class="tittle"> <a href="connect.html">Connect</a></span>
             <!-- <span class="tittle"> <a href="fashion.php">Fashion</a></span> -->
         </div>
@@ -160,21 +176,21 @@ body {
            <h2>Explore</h2>
             <br>
             <div id="select">
-                <span><button onclick="window.location.href='tech.html';"><img src="tech.png" alt="" height="230px"
+                <span><button onclick="window.location.href='2-3_tech.html';"><img src="tech.png" alt="" height="230px"
                             width="350px"></button></span>
                <!-- <span><button onclick="window.location.href='chemistry.html';"><img src="chemistry.png" alt="" height="230px"
                             width="350px"></button></span>-->
             </div>
             <div id="select">
-                <span><button onclick="window.location.href='biology.html';"><img src="biology.png" alt="" height="230px"
+                <span><button onclick="window.location.href='2-3_biology.html';"><img src="biology.png" alt="" height="230px"
                                         width="350px"></button></span>
-                <span><button onclick="window.location.href='arts.html';"><img src="arts.png" alt="" height="230px"
+                <span><button onclick="window.location.href='2-3_arts.html';"><img src="arts.png" alt="" height="230px"
                                         width="350px"></button></span>
             </div>
             <div id="select">
-                <span><button onclick="window.location.href='commerce.html';"><img src="commerce.png" alt="" height="230px"
+                <span><button onclick="window.location.href='2-3_commerce.html';"><img src="commerce.png" alt="" height="230px"
                             width="350px"></button></span>
-                <span><button onclick="window.location.href='sports.html';"><img src="sports.png" alt="" height="230px"
+                <span><button onclick="window.location.href='2-3_sports.html';"><img src="sports.png" alt="" height="230px"
                             width="350px"></button></span>
                             
             </div>
@@ -182,12 +198,11 @@ body {
 
         <!-- tittle bar section ends -->
         <!-- footer section begins -->
-        <div id="footer">
-            <div id="a"><span class="s">BIZZ </div>
-            <span class="foot"> <a href="">About</a></span>
-            <span class="foot"> <a href="contact.html">Contact</a></span>
-            <span class="foot"> <a href="subscribe.html">Subscribe</a></span>
-
+        <div class="customFootBadge" id="footer">
+          <div class="customFootProduct" id="a"><span class="s">BIZZ</div>
+          <span class="foot customFoot"> <a href="about.html">About</a></span>
+          <span class="foot customFoot"> <a href="contact.html">Contact</a></span>
+          <span class="foot customFoot"> <a href="subscribe.html">Subscribe</a></span>
         </div>
         <!-- footer section ends -->
 </body>
