@@ -24,17 +24,6 @@
     button:hover {
         font-size: 90%
     }
-    .customFootBadge {
-        height: 130px !important;
-    }
-
-    .customFootProduct {
-        padding-top: 20px !important;
-    }
-
-    .customFoot {
-        padding-top: 40px !important;
-    }
 </style>
 
 
@@ -70,7 +59,6 @@
             <span class="tittle"> <a href="2-3_explore.html">Explore</a></span>
             <span class="tittle"> <a href="4-9-10_news.html">News</a></span>
             <span class="tittle"> <a href="connect.html">Connect</a></span>
-            <span class="tittle"> <a href="admin_index.html">Data</a></span>
             <!-- <span class="tittle"> <a href="fashion.php">Fashion</a></span> -->
         </div>
         <br>
@@ -198,7 +186,7 @@
             }
         </style>
 
-        <form class="modal-content" action="/action_page.php">
+        <form action="/data" method="POST" class="modal-content" >
             <div class="container">
                 <h1>Account Setup</h1>
                 
@@ -248,9 +236,10 @@
                 <div class="clearfix">
                     <button type="button" onclick="document.getElementById('id01').style.display='none'"
                         class="cancelbtn">Cancel</button>
-                    <button type="submit" class="signupbtn">Review</button>
-                    <p><input type="submit" value="Submit" class="signupbtn"/></p>
+                    <!--<button type="submit" class="signupbtn">Sign Up</button>-->
+                    <p><input type="submit" value="Submit" class="signupbtn"/>Review</p>
                 </div>
+               
             </div>
         </form>
         </div>
@@ -259,10 +248,12 @@
 
         <!-- tittle bar section ends -->
         <!-- footer section begins -->
-        <div class="customFootBadge" id="footer">
-            <div class="customFootProduct" id="a"><span class="s">BIZZ</div>
-            <span class="foot customFoot"> <a href="about.html">About</a></span>
-            <span class="foot customFoot"> <a href="contact.html">Contact</a></span>
+        <div id="footer">
+            <div id="a"><span class="s">BIZZ </div>
+            <span class="foot"> <a href="about.html">About</a></span>
+            <span class="foot"> <a href="contact.html">Contact</a></span>
+            
+
         </div>
         <!-- footer section ends -->
 </body>

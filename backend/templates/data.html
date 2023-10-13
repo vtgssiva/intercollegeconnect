@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BIZZ</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+    a {
+        color: white;
+    }
+
+    a:hover {
+        color: white;
+        font-size: 110%;
+    }
+
+    button:hover {
+        font-size: 90%
+    }
+      .customFootBadge {
+        height: 130px !important;
+    }
+
+    .customFootProduct {
+        padding-top: 20px !important;
+    }
+
+    .customFoot {
+        padding-top: 40px !important;
+    }
+</style>
+
+
+<body>
+    <!-- Landing page begins -->
+    <div id="landingPage">
+        <!-- header section begins-->
+        <div id="header">
+            <div id="logo">
+                <img src="logo.jpg" alt="logo" width="50px" height="50px">
+            </div>
+            <div id="hi">
+                <h1>BIZZ </h1>
+            </div>
+            <!--<div>
+                <button id="subscribe" onclick="window.location.href='subscribe.html';">subscribe</button>
+            </div>-->
+            <div>
+                <button id="email" onclick="window.location.href='0_login_v1.html';"><img src="login.png"
+                        alt=""></button>
+            </div>
+            <div>
+                <button id="email" onclick="window.location.href='6_account_setup.html';"> <img src="plus.png"
+                        alt=""></button>
+            </div>
+            <div>
+                <button id="notification" onclick="window.location.href='5_notifications.html';"><img src="bell.jpg"
+                        alt=""></button>
+            </div>
+        </div>
+
+        <!-- header section ends -->
+        <!-- tittle bar section begins -->
+        <div id="tittleBar">
+            <span class="tittle"> <a href="2-3_index.html">Home</a></span>
+            <span class="tittle"> <a href="2-3_explore.html">Explore</a></span>
+            <span class="tittle"> <a href="4-9-10_news.html">News</a></span>
+            <span class="tittle"> <a href="connect.html">Connect</a></span>
+            <!-- <span class="tittle"> <a href="fashion.php">Fashion</a></span> -->
+        </div>
+        <br>
+
+
+
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            /* Full-width input fields */
+            input[type=text],
+            input[type=date] {
+                width: 100%;
+                padding: 12px;
+                margin: 5px 0 8px 0;
+                height: auto;
+                display: inline-block;
+                border: none;
+                background: #f1f1f1;
+            }
+
+            /* Add a background color when the inputs get focus */
+            input[type=text]:focus,
+            input[type=password]:focus {
+                background-color: #ddd;
+                outline: none;
+            }
+
+            /* Set a style for all buttons */
+            button {
+                background-color: #D9D9D9;
+                color: rgb(17, 17, 17);
+                padding: 14px 17px;
+                margin: 8px 3px;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                opacity: 0.9;
+            }
+
+            button:hover {
+                opacity: 2;
+            }
+            </style>
+{% for key,value in form_data.items() %}
+<h2> {{key}}</h2>
+<p> {{value}}</p>
+{% endfor %}
+<p><input type="submit" value="Submit" />Submit</p>
+<!-- tittle bar section ends -->
+<!-- footer section begins -->
+<div class="customFootBadge" id="footer">
+    <div class="customFootProduct" id="a"><span class="s">BIZZ</div>
+    <span class="foot customFoot"> <a href="about.html">About</a></span>
+    <span class="foot customFoot"> <a href="contact.html">Contact</a></span>
+</div>
+<!-- footer section ends -->
+</body>
+
+</html>
