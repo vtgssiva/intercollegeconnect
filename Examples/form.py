@@ -2,11 +2,11 @@ from flask import Flask,render_template,request
  
 app = Flask(__name__)
  
-@app.route('/account')
+@app.route('/form')
 def form():
-    return render_template('6_account_setup.html')
+    return render_template('form.html')
  
-@app.route('/data', methods = ['POST', 'GET'])
+@app.route('/data/', methods = ['POST', 'GET'])
 def data():
     if request.method == 'GET':
         return f"The URL /data is accessed directly. Try going to '/form' to submit form"
